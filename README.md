@@ -24,4 +24,24 @@ This project implements an efficient virtualized scrolling mechanism using vanil
   }
 
 ## Running backend server
-Change directory(or cd) to task1 folder and run the below commands 
+Change directory(or cd) to task1 folder and run the below commands
+
+```sh
+npm install
+```
+After that run the server using below commands with optional argument[PORT]
+```sh
+node server.js
+```
+or
+```sh
+node server.js [PORT_NUMBER]
+```
+
+If the port is already in use then kill that port and run the server again. Or just pass PORT number along with node command, and note that change the port in `client-script.js` file as well.
+
+## Running the client
+Simply open `index.html` file in a browser.
+
+
+**Happy Coding**
